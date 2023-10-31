@@ -18,3 +18,11 @@ cask "google-cloud-sdk"
 
 brew "mysql"
 brew "postgresql@16"
+
+brew "anyenv"
+brew "ffmpeg"
+brew "pv"
+brew "mas"
+
+brew "mkcert"
+brew "nss" 
