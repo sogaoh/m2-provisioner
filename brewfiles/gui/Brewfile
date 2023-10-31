@@ -1,0 +1,25 @@
+require './brewfiles/m1_utils.rb'
+
+cask_args appdir: "/Applications"
+
+cask "iterm2"
+cask "raycast"
+#cask "docker"        # 'Docker Desktop for Mac with Apple silicon' from https://docs.docker.com/desktop/install/mac-install/
+cask "google-chrome"
+cask "firefox"
+cask "microsoft-edge"
+cask "visual-studio-code"
+#cask "arc"
+#cask "intellij-idea"
+#cask "jetbrains-toolbox"
+cask "slack"
+cask "discord"
+#cask "zoom"
+#cask "gimp"    # 勝手に消されるのでコメントアウト
+cask "bitwarden"
+#cask "adobe-acrobat-reader"     # Needs Rosseta2
+#cask "rambox"
+#cask "dbeaver-community"
+cask "obsidian"
+cask "orbstack"
+#cask "cyberduck"
