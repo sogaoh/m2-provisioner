@@ -32,7 +32,7 @@ cask "visual-studio-code"
 ###################
 cask "obsidian"
 #cask "gimp"    # 勝手に消されるのでコメントアウト
-#cask "bitwarden"
+#cask "bitwarden" # Safari拡張機能を入れるためにAppStoreからのインストールにした
 #cask "adobe-acrobat-reader"     # Needs Rosseta2
 #cask "rambox"
 #cask "dbeaver-community"
