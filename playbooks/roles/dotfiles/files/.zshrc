@@ -86,16 +86,16 @@ bindkey '^x^i' peco-docker-images
 
 # gcloud 
 ## refs https://zenn.dev/choimake/articles/1abc277f1bffac
-source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+#source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+#source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 
 # direnv
-eval "$(direnv hook zsh)"
+#eval "$(direnv hook zsh)"
 
 
 # anyenv
-eval "$(anyenv init -)"
+#eval "$(anyenv init -)"
 
 
 # # awsp
@@ -118,7 +118,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 
 # zsh-abbr
-source "/opt/homebrew/share/zsh-abbr/zsh-abbr.zsh"
+#source "/opt/homebrew/share/zsh-abbr/zsh-abbr.zsh"
 
 
 # unalias
@@ -152,6 +152,6 @@ if [ -d $ZSHHOME -a -r $ZSHHOME -a \
      -x $ZSHHOME ]; then
     for i in $ZSHHOME/*; do
         [[ ${i##*/} = *.zsh ]] &&
-            [ \( -f $i -o -h $i \) -a -r $i ] && source $i
+#            [ \( -f $i -o -h $i \) -a -r $i ] && source $i
     done
 fi
