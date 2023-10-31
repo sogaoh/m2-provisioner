@@ -1,0 +1,17 @@
+---
+# aqua - Declarative CLI Version Manager
+# https://aquaproj.github.io/
+# checksum:
+#   enabled: true
+#   require_checksum: true
+#   supported_envs:
+#   - all
+registries:
+- type: standard
+  ref: v4.77.0 # renovate: depName=aquaproj/aqua-registry
+packages:
+- name: x-motemen/ghq@v1.4.2
+- name: peco/peco@v0.5.11
+- name: GoogleCloudPlatform/terraformer@0.8.24
+- name: noborus/ov@v0.32.1
+- name: noborus/trdsql@v0.12.1
