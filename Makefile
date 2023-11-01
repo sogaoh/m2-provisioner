@@ -21,6 +21,16 @@ aqli:
 aqu:
 	aqua up
 
+awsume:
+	@if ! which pip > /dev/null; then \
+		echo "pipx is not installed, skipping..."; \
+		exit 1; \
+	fi
+	pipx install awsume
+	pipx ensurepath
+	pipx inject awsume awsume-console-plugin 
+	pipx install aws-sso-util
+
 
 ma:
 	ansible-playbook playbooks/mackerel-agent.yml -i "localhost," -e @variables.yaml --tags=mackerel -K
