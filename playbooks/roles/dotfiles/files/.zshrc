@@ -122,7 +122,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 
 # zsh-abbr
-#source "/opt/homebrew/share/zsh-abbr/zsh-abbr.zsh"
+source "/opt/homebrew/share/zsh-abbr/zsh-abbr.zsh"
 
 
 # unalias
@@ -156,6 +156,6 @@ if [ -d $ZSHHOME -a -r $ZSHHOME -a \
      -x $ZSHHOME ]; then
     for i in $ZSHHOME/*; do
         [[ ${i##*/} = *.zsh ]] &&
-#            [ \( -f $i -o -h $i \) -a -r $i ] && source $i
+            [ \( -f $i -o -h $i \) -a -r $i ] && source $i
     done
 fi
