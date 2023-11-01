@@ -33,8 +33,8 @@ packages:
 - name: knqyf263/utern@v0.1.6
 - name: hashicorp/vault@v1.15.1
 - name: TomWright/dasel@v2.4.1
-- name: nektos/act@v0.2.52
-- name: cli/cli@v2.37.0 # gh
+- name: nektos/act@v0.2.53
+- name: cli/cli@v2.38.0 # gh
 - name: volta-cli/volta@v1.1.1
 - name: getsops/sops@v3.8.1
 - name: suzuki-shunsuke/tfcmt@v4.7.1

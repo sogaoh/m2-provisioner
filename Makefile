@@ -13,13 +13,13 @@ gui:
 	brew bundle install --file=brewfiles/gui/Brewfile
 cli:
 	brew bundle install --file=brewfiles/cli/Brewfile
+
 aqi:
 	aqua i
 aqli:
 	aqua i -l
-
-# ext:
-# 	brew bundle install --file=brewfiles/extension/Brewfile
+aqu:
+	aqua up
 
 
 ma:
