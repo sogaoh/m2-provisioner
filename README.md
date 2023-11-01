@@ -81,7 +81,7 @@ make cli
 ```
 
 ```bash
-make aqi
+make aqi    # or `make aqu`: update
 ```
 
 
@@ -89,4 +89,8 @@ make aqi
 
 ```bash
 make ma   # install mackerel-agent
+```
+
+```bash
+make awsume   # setup awsume
 ```

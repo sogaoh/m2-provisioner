@@ -103,18 +103,6 @@ eval "$(direnv hook zsh)"
 eval "$(anyenv init -)"
 
 
-# # awsp
-# function awsp() {
-#   if [ $# -ge 1 ]; then
-#     export AWS_PROFILE="$1"
-#     echo "Set AWS_PROFILE=$AWS_PROFILE."
-#   else
-#     source _awsp
-#   fi
-#   export AWS_DEFAULT_PROFILE=$AWS_PROFILE
-# }
-
-
 # bun completions
 [ -s "/Users/sogaoh/.bun/_bun" ] && source "/Users/sogaoh/.bun/_bun"
 # bun
@@ -137,22 +125,12 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 
 # nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-#################################################################################
-# https://zenn.dev/taichifukumoto/articles/how-to-use-multiple-github-accounts
-#################################################################################
-#export PROMPT="
-#%F{green}[%~]%f < `git config user.name` (`git config user.email`) >
-#=> %# "
-#RPROMPT='%*'
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
 ZSHHOME="${HOME}/.zsh.d"
-
 if [ -d $ZSHHOME -a -r $ZSHHOME -a \
      -x $ZSHHOME ]; then
     for i in $ZSHHOME/*; do
