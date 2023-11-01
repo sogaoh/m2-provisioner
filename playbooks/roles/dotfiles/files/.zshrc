@@ -84,10 +84,14 @@ zle -N peco-docker-images
 bindkey '^x^i' peco-docker-images
 
 
+# aqua
+export PATH="$(aqua root-dir)/bin:$PATH"
+
+
 # gcloud 
 ## refs https://zenn.dev/choimake/articles/1abc277f1bffac
-#source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-#source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 
 # direnv

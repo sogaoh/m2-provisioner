@@ -28,6 +28,12 @@ since
   brew install ansible
   ```
 
+- Install aqua
+  ```zsh
+  brew update
+  brew install aquaproj/aqua/aqua
+  ```
+
 - Install Rosetta (refs https://support.apple.com/HT211861)
 
 
