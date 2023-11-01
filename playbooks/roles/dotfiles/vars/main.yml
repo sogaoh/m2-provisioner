@@ -11,3 +11,4 @@ dotfiles_name:
   - .psqlrc
   - .actrc
   - .zsh.d/abbr.zsh
+  - .config/peco/config.json

@@ -10,6 +10,8 @@ abbr -S dco='docker compose'
 abbr -S di='docker images'
 abbr -S dp='docker ps'
 abbr -S dv='docker volume ls'
+abbr -S dspv='docker system prune --volumes'  # -fa
+abbr -S dbp='docker builder prune'  # -fa
 
 ## terraform
 abbr -S tfi='terraform init'
@@ -25,3 +27,6 @@ abbr -S asso='aws sso login --profile'
 
 # exec
 abbr -S esl='exec $SHELL -l'
+
+# cd
+abbr -S m2='cd /Volumes/crucial-p5/m2-provisioner'

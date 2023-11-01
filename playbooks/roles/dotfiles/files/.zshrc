@@ -85,6 +85,7 @@ bindkey '^x^i' peco-docker-images
 
 
 # aqua
+export AQUA_GLOBAL_CONFIG=/Volumes/crucial-p5/m2-provisioner/aqua/aqua.yaml
 export PATH="$(aqua root-dir)/bin:$PATH"
 
 
@@ -95,11 +96,11 @@ source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completi
 
 
 # direnv
-#eval "$(direnv hook zsh)"
+eval "$(direnv hook zsh)"
 
 
 # anyenv
-#eval "$(anyenv init -)"
+eval "$(anyenv init -)"
 
 
 # # awsp

@@ -34,7 +34,7 @@ since
   brew install aquaproj/aqua/aqua
   ```
 
-- Install Rosetta (refs https://support.apple.com/HT211861)
+- Install Rosetta (refs https://support.apple.com/HT211861) [if necessary]
 
 
 ### Prepare
@@ -46,6 +46,14 @@ since
 - Set `variables.yaml` (If run `make ma`)
   ```
   mackerel_agent_apikey: "<your_key>"
+  ```
+
+- Create directory
+  ```zsh
+  mkdir -p ~/.config/peco
+  mkdir -p ~/.ssh/.identity
+  mkdir -p ~/.ssh/conf.d
+  chmod 700 ~/.ssh
   ```
 
 
@@ -68,12 +76,17 @@ make dot      # probably just for me
 make gui
 ```
 
+```bash
+make cli
+```
+
+```bash
+make aqi
+```
+
+
 #### optional
 
 ```bash
 make ma   # install mackerel-agent
-```
-
-```bash
-make ext  # via AppStore. 手動で入れても良い（大した数じゃないので）
 ```
