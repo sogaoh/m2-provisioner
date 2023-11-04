@@ -18,6 +18,7 @@ abbr -S tfi='terraform init'
 abbr -S tff='terraform fmt'
 abbr -S tfp='terraform plan'
 abbr -S tfa='terraform apply'
+abbr -S tfim='terraform import'
 
 # awsume
 alias awsume=". awsume"
