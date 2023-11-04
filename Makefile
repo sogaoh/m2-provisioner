@@ -22,7 +22,7 @@ aqu:
 	aqua up
 
 awsume:
-	@if ! which pip > /dev/null; then \
+	@if ! which pipx > /dev/null; then \
 		echo "pipx is not installed, skipping..."; \
 		exit 1; \
 	fi
