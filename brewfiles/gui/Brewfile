@@ -26,12 +26,12 @@ cask "visual-studio-code"
 ###################
 #cask "slack"
 cask "discord"
-#cask "zoom"
+cask "zoom"
 
 ## Other
 ###################
 cask "obsidian"
-#cask "gimp"    # 勝手に消されるのでコメントアウト
+cask "gimp"
 #cask "bitwarden" # Safari拡張機能を入れるためにAppStoreからのインストールにした
 #cask "adobe-acrobat-reader"     # Needs Rosseta2
 #cask "rambox"
