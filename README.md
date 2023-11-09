@@ -91,6 +91,10 @@ make cli
 make aqi    # or `make aqu`: update
 ```
 
+```bash
+make rust
+```
+
 
 #### optional
 
