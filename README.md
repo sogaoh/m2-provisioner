@@ -34,6 +34,13 @@ since
   brew install aquaproj/aqua/aqua
   ```
 
+- Install Rust (install cargo) 
+  ```zsh
+  brew update
+  brew install rustup-init
+  rustup-init
+  ```
+
 - Install Rosetta (refs https://support.apple.com/HT211861) [if necessary]
 
 
