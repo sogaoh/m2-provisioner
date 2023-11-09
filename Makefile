@@ -7,7 +7,8 @@ prezto:
 	ansible-playbook playbooks/prezto.yml -i "localhost," --tags=prezto -K
 dot:
 	ansible-playbook playbooks/dotfiles.yml -i "localhost," --tags=dotfiles -K
-
+rust:
+	ansible-playbook playbooks/rust-packages.yml -i "localhost," --tags=rust-packages
 
 gui:
 	brew bundle install --file=brewfiles/gui/Brewfile
@@ -31,6 +32,9 @@ awsume:
 	pipx inject awsume awsume-console-plugin 
 	pipx install aws-sso-util
 
+nerd-font:
+	brew tap homebrew/cask-fonts
+	brew install --cask font-hack-nerd-font
 
 ma:
 	ansible-playbook playbooks/mackerel-agent.yml -i "localhost," -e @variables.yaml --tags=mackerel -K
