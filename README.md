@@ -34,7 +34,7 @@ since
   brew install aquaproj/aqua/aqua
   ```
 
-- Install Rust (install cargo) 
+- Install Rust (install cargo,rustup) 
   ```zsh
   brew update
   brew install rustup-init
@@ -100,4 +100,8 @@ make ma   # install mackerel-agent
 
 ```bash
 make awsume   # setup awsume
+```
+
+```bash
+make nerd-font  # install nerd-font (refs https://www.nerdfonts.com/) 
 ```
