@@ -138,3 +138,6 @@ if [ -d $ZSHHOME -a -r $ZSHHOME -a \
             [ \( -f $i -o -h $i \) -a -r $i ] && source $i
     done
 fi
+
+# Created by `pipx` on 2023-11-02 12:51:08
+export PATH="$PATH:/Users/sogaoh/.local/bin"
