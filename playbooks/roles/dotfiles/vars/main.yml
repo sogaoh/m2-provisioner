@@ -12,3 +12,4 @@ dotfiles_name:
   - .actrc
   - .zsh.d/abbr.zsh
   - .config/peco/config.json
+  - .config/bat/config
