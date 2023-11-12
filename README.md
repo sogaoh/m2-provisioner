@@ -109,3 +109,9 @@ make awsume   # setup awsume
 ```bash
 make nerd-font  # install nerd-font (refs https://www.nerdfonts.com/) 
 ```
+
+- AWS Session Manager Plugin
+  - refs https://docs.aws.amazon.com/ja_jp/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html
+
+- AWS Serverless Application Model (SAM) CLI : 
+  - refs https://docs.aws.amazon.com/ja_jp/serverless-application-model/latest/developerguide/install-sam-cli.html
