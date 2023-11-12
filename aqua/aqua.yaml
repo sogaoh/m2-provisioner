@@ -8,13 +8,13 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.81.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.83.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.4.2
 - name: peco/peco@v0.5.11
 - name: GoogleCloudPlatform/terraformer@0.8.24
 - name: noborus/ov@v0.32.1
-- name: noborus/trdsql@v0.12.1
+- name: noborus/trdsql@v0.13.0
 - name: direnv/direnv@v2.32.3
 - name: kellyjonbrazil/jc@v1.23.6
 - name: gohugoio/hugo@v0.120.4
@@ -29,7 +29,7 @@ packages:
 - name: fujiwara/lambroll@v0.14.6
 - name: fujiwara/ecsta@v0.4.0
 - name: fujiwara/tfstate-lookup@v1.1.4
-- name: Songmu/ecschedule@v0.11.1
+- name: Songmu/ecschedule@v0.11.2
 - name: knqyf263/utern@v0.1.6
 - name: hashicorp/vault@v1.15.2
 - name: TomWright/dasel@v2.4.1
