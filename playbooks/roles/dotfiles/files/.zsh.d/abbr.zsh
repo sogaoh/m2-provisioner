@@ -7,7 +7,7 @@ abbr -S --quiet gsw='git switch'
 
 ## docker
 abbr -S --quiet d='docker'
-abbr -S --quiet dco='docker compose'
+abbr -S --quiet dc='docker compose'
 abbr -S --quiet di='docker images'
 abbr -S --quiet dp='docker ps'
 abbr -S --quiet dv='docker volume ls'
@@ -20,6 +20,7 @@ abbr -S --quiet tff='terraform fmt'
 abbr -S --quiet tfp='terraform plan'
 abbr -S --quiet tfa='terraform apply'
 abbr -S --quiet tfim='terraform import'
+abbr -S --quiet tfd='terraform destroy'
 
 # awsume
 alias awsume=". awsume"
@@ -33,3 +34,7 @@ abbr -S --quiet esl='exec $SHELL -l'
 # cd
 abbr -S --quiet m2='cd /Volumes/crucial-p5/m2-provisioner'
 abbr -S --quiet key='cd ~/.ssh/.identity'
+
+# ov
+abbr -S --quiet ovps='ps -ef | ov --header 1 --column-width --column-rainbow'
+abbr -S --quiet ovcsv='ov --column-delimiter "," --column-mode --column-rainbow '
