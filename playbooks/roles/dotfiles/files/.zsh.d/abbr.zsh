@@ -20,6 +20,7 @@ abbr -S --quiet tff='terraform fmt'
 abbr -S --quiet tfp='terraform plan'
 abbr -S --quiet tfa='terraform apply'
 abbr -S --quiet tfim='terraform import'
+abbr -S --quiet tfo='terraform output'
 abbr -S --quiet tfd='terraform destroy'
 
 # awsume
