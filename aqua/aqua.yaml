@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.119.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.123.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.4.2
 - name: peco/peco@v0.5.11
@@ -23,10 +23,10 @@ packages:
 - name: google/jsonnet@v0.20.0
 - name: CircleCI-Public/circleci-cli@v0.1.29936
 - name: tfutils/tfenv@v3.0.0
-- name: terraform-linters/tflint@v0.50.1
+- name: terraform-linters/tflint@v0.50.2
 - name: aquasecurity/tfsec@v1.28.5
 - name: aquasecurity/trivy@v0.48.3
-- name: kayac/ecspresso@v2.3.1
+- name: kayac/ecspresso@v2.3.2
 - name: fujiwara/lambroll@v0.14.7
 - name: fujiwara/ecsta@v0.4.3
 - name: fujiwara/tfstate-lookup@v1.1.6
@@ -39,4 +39,4 @@ packages:
 - name: volta-cli/volta@v1.1.1
 - name: getsops/sops@v3.8.1
 - name: suzuki-shunsuke/tfcmt@v4.8.0
-- name: oven-sh/bun@bun-v1.0.23
+- name: oven-sh/bun@bun-v1.0.25
