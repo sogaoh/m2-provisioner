@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.123.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.125.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.4.2
 - name: peco/peco@v0.5.11
@@ -18,7 +18,7 @@ packages:
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.33.0
 - name: kellyjonbrazil/jc@v1.24.0
-- name: gohugoio/hugo@v0.121.2
+- name: gohugoio/hugo@v0.122.0
 - name: mikefarah/yq@v4.40.5
 - name: google/jsonnet@v0.20.0
 - name: CircleCI-Public/circleci-cli@v0.1.29936
@@ -40,3 +40,5 @@ packages:
 - name: getsops/sops@v3.8.1
 - name: suzuki-shunsuke/tfcmt@v4.8.0
 - name: oven-sh/bun@bun-v1.0.25
+- name: k1LoW/runn@v0.98.1
+- name: stateful/runme@v2.2.2
