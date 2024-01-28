@@ -11,13 +11,24 @@
     //"files.trimTrailingWhitespace": true, // 保存時に行の終端に存在する空白文字を削除する
     "cSpell.words": [
       "actrc",
+      "apikey",
       "appdir",
+      "aquaproj",
+      "awsume",
       "dotfiles",
+      "fselect",
+      "peco",
       "Pixela",
       "prezto",
+      "procs",
       "psqlrc",
+      "ripgrep",
+      "runbook",
+      "runme",
+      "rustup",
       "ryosms",
       "setenv",
+      "Sonoma",
       "vimrc",
       "zpreztorc"
     ]

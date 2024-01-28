@@ -3,10 +3,14 @@
 help:
 	cat Makefile
 
+upg: aqu aqi gui cli rust
+
+
 prezto:
 	ansible-playbook playbooks/prezto.yml -i "localhost," --tags=prezto -K
 dot:
 	ansible-playbook playbooks/dotfiles.yml -i "localhost," --tags=dotfiles -K
+
 rust:
 	ansible-playbook playbooks/rust-packages.yml -i "localhost," --tags=rust-packages
 

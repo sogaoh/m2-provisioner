@@ -88,7 +88,8 @@ make cli
 ```
 
 ```bash
-make aqi    # or `make aqu`: update
+make aqu    # update
+make aqi    # install
 ```
 
 ```bash
