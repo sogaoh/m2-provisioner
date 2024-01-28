@@ -40,24 +40,30 @@ make rust
 ```
 
 
-## one times
+## one time
 
+### install mackerel-agent 
+(needs `variables.yaml`)
 ```bash 
-make ma   # install mackerel-agent
+make ma   
 ```
 
+### setup awsume
 ```bash
-make awsume   # setup awsume
+make awsume
 ```
 
+### install nerd-font (refs https://www.nerdfonts.com/)
 ```bash
-make nerd-font  # install nerd-font (refs https://www.nerdfonts.com/)
+make nerd-font
 ```
 
+### setup prezto (probably just for me)
 ```bash
-make prezto   # probably just for me
+make prezto
 ```
 
+### setup dotfiles (probably just for me)
 ```bash
-make dot      # probably just for me
+make dot
 ```
