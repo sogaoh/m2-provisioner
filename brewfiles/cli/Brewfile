@@ -35,5 +35,5 @@ tap "mackerelio/mackerel-agent"
 brew "mkr"                  # mackerelio/mackerel-agent/mkr
 tap "olets/tap"
 brew "zsh-abbr"             # olets/tap/zsh-abbr
-tap "cloudflare/cloudflare"
-cask "cloudflare/cloudflare/cf-terraforming"    # needs GRANT security & privacy
+#tap "cloudflare/cloudflare"
+#cask "cloudflare/cloudflare/cf-terraforming"    # needs GRANT security & privacy

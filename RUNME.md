@@ -13,6 +13,7 @@ My PC (M2 Mac) provisioner
 
 ```bash
 cd $PWD
+direnv allow
 make upg
 ```
 
