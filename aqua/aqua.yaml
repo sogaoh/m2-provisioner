@@ -8,17 +8,17 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.137.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.141.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.5.0
 - name: peco/peco@v0.5.11
 - name: GoogleCloudPlatform/terraformer@0.8.24
-- name: noborus/ov@v0.33.2
+- name: noborus/ov@v0.33.3
 - name: noborus/trdsql@v0.20.0
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.33.0
 - name: kellyjonbrazil/jc@v1.25.1
-- name: gohugoio/hugo@v0.122.0
+- name: gohugoio/hugo@v0.123.3
 - name: mikefarah/yq@v4.41.1
 - name: google/jsonnet@v0.20.0
 - name: CircleCI-Public/circleci-cli@v0.1.30163
@@ -39,6 +39,6 @@ packages:
 - name: volta-cli/volta@v1.1.1
 - name: getsops/sops@v3.8.1
 - name: suzuki-shunsuke/tfcmt@v4.9.0
-- name: oven-sh/bun@bun-v1.0.27
-- name: k1LoW/runn@v0.98.4
-- name: stateful/runme@v3.0.1
+- name: oven-sh/bun@bun-v1.0.29
+- name: k1LoW/runn@v0.99.3
+- name: stateful/runme@v3.0.2
