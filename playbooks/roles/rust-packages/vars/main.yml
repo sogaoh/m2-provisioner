@@ -5,3 +5,4 @@ cargo_packages:
   - { name: fselect }
   - { name: procs } 
   - { name: du-dust, executable: dust }
+  - { name: htmlq } 
