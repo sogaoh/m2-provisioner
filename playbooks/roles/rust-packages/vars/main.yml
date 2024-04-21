@@ -6,3 +6,4 @@ cargo_packages:
   - { name: procs } 
   - { name: du-dust, executable: dust }
   - { name: htmlq } 
+  #- { name: deno }

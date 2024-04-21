@@ -39,3 +39,5 @@ brew "zsh-abbr"             # olets/tap/zsh-abbr
 #cask "cloudflare/cloudflare/cf-terraforming"    # needs GRANT security & privacy
 
 brew "ynqa/tap/jnv"
+
+brew "deno"
