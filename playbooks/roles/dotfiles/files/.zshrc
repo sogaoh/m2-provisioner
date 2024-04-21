@@ -141,3 +141,8 @@ fi
 
 # Created by `pipx` on 2023-11-02 12:51:08
 export PATH="$PATH:/Users/sogaoh/.local/bin"
+
+# deno completion
+fpath=(~/.zsh $fpath)
+autoload -Uz compinit
+compinit -u
