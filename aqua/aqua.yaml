@@ -35,11 +35,11 @@ packages:
 - name: hashicorp/vault@v1.16.2
 - name: TomWright/dasel@v2.7.0
 - name: nektos/act@v0.2.61
-- name: cli/cli@v2.48.0 # gh
+- name: cli/cli@v2.49.0 # gh
 - name: volta-cli/volta@v1.1.1
 - name: getsops/sops@v3.8.1
 - name: suzuki-shunsuke/tfcmt@v4.9.0
 - name: oven-sh/bun@bun-v1.1.6
-- name: k1LoW/runn@v0.105.1
+- name: k1LoW/runn@v0.105.2
 - name: stateful/runme@v3.2.7
 - name: suzuki-shunsuke/ghalint@v0.2.9
