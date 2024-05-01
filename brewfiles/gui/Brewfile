@@ -27,6 +27,7 @@ cask "visual-studio-code"
 cask "slack"
 cask "discord"
 cask "zoom"
+cask "chatwork"
 
 ## Other
 ###################
