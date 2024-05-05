@@ -17,6 +17,8 @@ brew "awscli"
 #brew "azure-cli"
 cask "google-cloud-sdk"
 
+brew "saml2aws"
+
 brew "mysql"
 brew "postgresql@16"
 
