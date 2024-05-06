@@ -39,3 +39,6 @@ abbr -S --quiet key='cd ~/.ssh/.identity'
 # ov
 abbr -S --quiet ovps='ps -ef | ov --header 1 --column-width --column-rainbow'
 abbr -S --quiet ovcsv='ov --column-delimiter "," --column-mode --column-rainbow '
+
+# saml2aws
+abbr -S --quiet s2a='saml2aws'

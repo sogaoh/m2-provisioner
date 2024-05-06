@@ -146,3 +146,9 @@ export PATH="$PATH:/Users/sogaoh/.local/bin"
 fpath=(~/.zsh $fpath)
 autoload -Uz compinit
 compinit -u
+
+
+# saml2aws 
+eval "$(saml2aws --completion-script-zsh)"
+# @see https://github.com/Versent/saml2aws/tree/master?tab=readme-ov-file#saml2aws-script
+#alias s2a="function(){eval $( $(command saml2aws) script --shell=bash --profile=$@);}"
