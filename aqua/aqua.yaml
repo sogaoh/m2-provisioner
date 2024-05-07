@@ -43,3 +43,4 @@ packages:
 - name: k1LoW/runn@v0.107.1
 - name: stateful/runme@v3.2.7
 - name: suzuki-shunsuke/ghalint@v0.2.9
+- name: playwright-community/playwright-go@v0.4201.1
