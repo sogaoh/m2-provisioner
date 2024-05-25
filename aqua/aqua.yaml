@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.182.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.186.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.6.1
 - name: peco/peco@v0.5.11
@@ -25,7 +25,7 @@ packages:
 - name: tfutils/tfenv@v3.0.0
 - name: terraform-linters/tflint@v0.51.1
 - name: aquasecurity/tfsec@v1.28.6
-- name: aquasecurity/trivy@v0.51.1
+- name: aquasecurity/trivy@v0.51.4
 - name: kayac/ecspresso@v2.3.3
 - name: fujiwara/lambroll@v1.0.4
 - name: fujiwara/ecsta@v0.4.5
@@ -39,9 +39,9 @@ packages:
 - name: volta-cli/volta@v1.1.1
 - name: getsops/sops@v3.8.1
 - name: suzuki-shunsuke/tfcmt@v4.9.1
-- name: oven-sh/bun@bun-v1.1.8
-- name: k1LoW/runn@v0.107.2
-- name: stateful/runme@v3.3.0
+- name: oven-sh/bun@bun-v1.1.10
+- name: k1LoW/runn@v0.109.0
+- name: stateful/runme@v3.3.1
 - name: suzuki-shunsuke/ghalint@v0.2.9
 - name: playwright-community/playwright-go@v0.4201.1
-- name: pulumi/pulumi@v3.116.1
+- name: pulumi/pulumi@v3.117.0
