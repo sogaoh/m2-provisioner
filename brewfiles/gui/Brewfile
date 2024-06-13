@@ -38,3 +38,4 @@ cask "gimp"
 #cask "rambox"
 #cask "dbeaver-community"
 #cask "cyberduck"
+cask "devtoys"    # need to run `xattr -rc "/Applications/DevToys.app"`
