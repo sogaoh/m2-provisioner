@@ -13,6 +13,7 @@ brew "jq"
 brew "pigz"
 brew "grep"
 brew "lnav"
+brew "diff-pdf"
 
 brew "awscli"
 #brew "azure-cli"
