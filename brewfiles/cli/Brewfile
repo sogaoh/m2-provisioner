@@ -12,6 +12,7 @@ brew "nkf"
 brew "jq"
 brew "pigz"
 brew "grep"
+brew "lnav"
 
 brew "awscli"
 #brew "azure-cli"
