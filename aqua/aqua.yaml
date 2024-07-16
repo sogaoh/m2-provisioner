@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.203.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.204.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.6.2
 - name: peco/peco@v0.5.11
@@ -38,10 +38,10 @@ packages:
 - name: cli/cli@v2.52.0 # gh
 - name: volta-cli/volta@v1.1.1
 - name: getsops/sops@v3.9.0
-- name: suzuki-shunsuke/tfcmt@v4.10.0
-- name: oven-sh/bun@bun-v1.1.18
+- name: suzuki-shunsuke/tfcmt@v4.11.0
+- name: oven-sh/bun@bun-v1.1.20
 - name: k1LoW/runn@v0.114.1
 - name: stateful/runme@v3.4.1
 - name: suzuki-shunsuke/ghalint@v0.2.12
-- name: playwright-community/playwright-go@v0.4501.0
-- name: pulumi/pulumi@v3.123.0
+- name: playwright-community/playwright-go@v0.4501.1
+- name: pulumi/pulumi@v3.124.0
