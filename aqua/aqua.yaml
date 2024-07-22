@@ -46,3 +46,5 @@ packages:
 - name: playwright-community/playwright-go@v0.4501.1
 - name: pulumi/pulumi@v3.125.0
 - name: tofuutils/tenv@v2.6.1
+- name: sigstore/cosign@v2.2.4
+- name: terramate-io/terramate@v0.9.3
