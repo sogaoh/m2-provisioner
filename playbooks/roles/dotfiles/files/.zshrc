@@ -152,3 +152,7 @@ compinit -u
 eval "$(saml2aws --completion-script-zsh)"
 # @see https://github.com/Versent/saml2aws/tree/master?tab=readme-ov-file#saml2aws-script
 #alias s2a="function(){eval $( $(command saml2aws) script --shell=bash --profile=$@);}"
+
+
+# tenv completion
+source '~/.tenv.completion.zsh'
