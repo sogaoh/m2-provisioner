@@ -48,3 +48,5 @@ packages:
 - name: tofuutils/tenv@v2.6.1
 - name: sigstore/cosign@v2.2.4
 - name: terramate-io/terramate@v0.9.3
+- name: gruntwork-io/terragrunt@v0.63.2
+- name: tgenv/tgenv@v1.2.1
