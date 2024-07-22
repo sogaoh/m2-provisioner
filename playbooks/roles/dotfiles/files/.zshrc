@@ -155,4 +155,4 @@ eval "$(saml2aws --completion-script-zsh)"
 
 
 # tenv completion
-source '~/.tenv.completion.zsh'
+[ -f ~/.tenv.completion.zsh ] && source ~/.tenv.completion.zsh
