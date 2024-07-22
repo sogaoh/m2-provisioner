@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.205.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.206.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.6.2
 - name: peco/peco@v0.5.11
@@ -45,3 +45,4 @@ packages:
 - name: suzuki-shunsuke/ghalint@v0.2.12
 - name: playwright-community/playwright-go@v0.4501.1
 - name: pulumi/pulumi@v3.125.0
+- name: tofuutils/tenv@v2.6.1
