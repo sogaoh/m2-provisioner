@@ -8,12 +8,12 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.206.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.208.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.6.2
 - name: peco/peco@v0.5.11
 - name: GoogleCloudPlatform/terraformer@0.8.24
-- name: noborus/ov@v0.35.0
+- name: noborus/ov@v0.36.0
 - name: noborus/trdsql@v1.0.1
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.34.0
@@ -44,10 +44,10 @@ packages:
 - name: stateful/runme@v3.4.1
 - name: suzuki-shunsuke/ghalint@v0.2.12
 - name: playwright-community/playwright-go@v0.4501.1
-- name: pulumi/pulumi@v3.125.0
-- name: tofuutils/tenv@v2.6.1
-- name: sigstore/cosign@v2.2.4
+- name: pulumi/pulumi@v3.127.0
+- name: tofuutils/tenv@v2.7.9
+- name: sigstore/cosign@v2.3.0
 - name: terramate-io/terramate@v0.9.3
-- name: gruntwork-io/terragrunt@v0.63.2
+- name: gruntwork-io/terragrunt@v0.64.0
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.30.0
