@@ -22,6 +22,7 @@ abbr -S --quiet tfa='terraform apply'
 abbr -S --quiet tfim='terraform import'
 abbr -S --quiet tfo='terraform output'
 abbr -S --quiet tfd='terraform destroy'
+abbr -S --quiet tfv='terraform validate'
 
 # awsume
 alias awsume=". awsume"
