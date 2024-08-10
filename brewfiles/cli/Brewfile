@@ -45,3 +45,5 @@ brew "zsh-abbr"             # olets/tap/zsh-abbr
 brew "ynqa/tap/jnv"
 
 brew "deno"
+
+cask "1password-cli"
