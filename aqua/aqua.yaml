@@ -51,3 +51,6 @@ packages:
 - name: gruntwork-io/terragrunt@v0.66.9
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.30.0
+- name: 1password/cli@v2.30.0
+- name: 1password/cli
+  version: "[SET PACKAGE VERSION]"
