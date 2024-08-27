@@ -95,10 +95,6 @@ source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh
 source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 
-# direnv
-eval "$(direnv hook zsh)"
-
-
 # anyenv
 eval "$(anyenv init -)"
 
@@ -156,3 +152,7 @@ eval "$(saml2aws --completion-script-zsh)"
 
 # tenv completion
 [ -f ~/.tenv.completion.zsh ] && source ~/.tenv.completion.zsh
+
+
+# direnv
+eval "$(direnv hook zsh)"
