@@ -156,3 +156,7 @@ eval "$(saml2aws --completion-script-zsh)"
 
 # direnv
 eval "$(direnv hook zsh)"
+
+
+# mise
+eval "$(mise activate zsh)"

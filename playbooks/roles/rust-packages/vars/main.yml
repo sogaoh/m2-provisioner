@@ -7,3 +7,4 @@ cargo_packages:
   - { name: du-dust, executable: dust }
   - { name: htmlq } 
   #- { name: deno }
+  - { name: mise } 
