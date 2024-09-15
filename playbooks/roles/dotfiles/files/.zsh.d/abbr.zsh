@@ -54,3 +54,12 @@ abbr -S --quiet ovcsv='ov --column-delimiter "," --column-mode --column-rainbow 
 
 # saml2aws
 abbr -S --quiet s2a='saml2aws'
+
+# bw (bitwarden cli)
+abbr -S --quiet bws='export BW_SESSION=$(bw unlock --raw)'
+abbr -S --quiet bw1p='bw list items --session $BW_SESSION --search 1pass | jq "[.[] | {id: .login.username, pw: .login.password}]"'
+
+# op (one password cli)
+abbr -S --quiet opl='op item list'
+abbr -S --quiet opgo='op item get "$OP_AWSSSO_ITEM_TITLE" --otp'
+abbr -S --quiet opgip='op item get "$OP_AWSSSO_ITEM_TITLE" --fields username,password --reveal'
