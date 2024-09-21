@@ -15,11 +15,11 @@ brew "grep"
 brew "lnav"
 brew "diff-pdf"
 
-brew "awscli"
+#brew "awscli"   # moved to aqua.yaml
 #brew "azure-cli"
 cask "google-cloud-sdk"
 
-brew "saml2aws"
+#brew "saml2aws"   # moved to aqua.yaml
 
 brew "mysql"
 brew "postgresql@16"

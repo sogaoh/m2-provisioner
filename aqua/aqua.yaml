@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.222.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.223.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.6.2
 - name: peco/peco@v0.5.11
@@ -52,3 +52,6 @@ packages:
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.30.0
 - name: 1password/cli@v2.30.0
+- name: aws/aws-cli@2.17.56
+- name: aws/session-manager-plugin@1.2.650.0
+- name: Versent/saml2aws@v2.36.17
