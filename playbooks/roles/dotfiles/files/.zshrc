@@ -110,8 +110,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 source "/opt/homebrew/share/zsh-abbr/zsh-abbr.zsh"
 
 
-# unalias
-#unalias mysql
+# mysql-client,psql PATH
+export PATH="/opt/homebrew/opt/mysql-client@8.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
 
 # volta
@@ -160,3 +161,7 @@ eval "$(direnv hook zsh)"
 
 # mise
 eval "$(mise activate zsh)"
+
+
+# unalias:最後に
+unalias mysql

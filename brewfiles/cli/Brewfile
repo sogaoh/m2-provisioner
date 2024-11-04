@@ -21,8 +21,8 @@ cask "google-cloud-sdk"
 
 #brew "saml2aws"   # moved to aqua.yaml
 
-brew "mysql"
-brew "postgresql@16"
+brew "mysql-client@8.0"
+brew "postgresql@17"
 
 brew "anyenv"
 brew "n"
