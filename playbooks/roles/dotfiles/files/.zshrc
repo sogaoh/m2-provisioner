@@ -164,4 +164,4 @@ eval "$(mise activate zsh)"
 
 
 # unalias:最後に
-unalias mysql
+#unalias mysql
