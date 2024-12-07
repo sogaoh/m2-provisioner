@@ -30,6 +30,7 @@ packages:
 - name: fujiwara/lambroll@v1.1.3
 - name: fujiwara/ecsta@v0.6.2
 - name: fujiwara/tfstate-lookup@v1.4.2
+- name: fujiwara/cfft@v0.8.2
 - name: Songmu/ecschedule@v0.12.0
 - name: knqyf263/utern@v0.1.6
 - name: hashicorp/vault@v1.18.2
