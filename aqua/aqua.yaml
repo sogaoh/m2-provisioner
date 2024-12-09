@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.269.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.271.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.7.1
 - name: peco/peco@v0.5.11
@@ -19,14 +19,14 @@ packages:
 - name: direnv/direnv@v2.35.0
 - name: kellyjonbrazil/jc@v1.25.4
 - name: gohugoio/hugo@v0.139.3
-- name: mikefarah/yq@v4.44.5
+- name: mikefarah/yq@v4.44.6
 - name: google/jsonnet@v0.20.0
 - name: CircleCI-Public/circleci-cli@v0.1.31151
 - name: tfutils/tfenv@v3.0.0
 - name: terraform-linters/tflint@v0.54.0
 - name: aquasecurity/tfsec@v1.28.11
 - name: aquasecurity/trivy@v0.58.0
-- name: kayac/ecspresso@v2.4.4
+- name: kayac/ecspresso@v2.4.5
 - name: fujiwara/lambroll@v1.1.3
 - name: fujiwara/ecsta@v0.6.2
 - name: fujiwara/tfstate-lookup@v1.4.2
@@ -41,7 +41,7 @@ packages:
 - name: getsops/sops@v3.9.2
 - name: suzuki-shunsuke/tfcmt@v4.14.0
 - name: oven-sh/bun@bun-v1.1.38
-- name: k1LoW/runn@v0.122.3
+- name: k1LoW/runn@v0.123.0
 - name: stateful/runme@v3.10.0
 - name: suzuki-shunsuke/ghalint@v1.0.0
 - name: playwright-community/playwright-go@v0.4802.0
