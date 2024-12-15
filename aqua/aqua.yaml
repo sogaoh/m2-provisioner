@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.271.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.276.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.7.1
 - name: peco/peco@v0.5.11
@@ -18,7 +18,7 @@ packages:
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.35.0
 - name: kellyjonbrazil/jc@v1.25.4
-- name: gohugoio/hugo@v0.139.3
+#- name: gohugoio/hugo@v0.139.5
 - name: mikefarah/yq@v4.44.6
 - name: google/jsonnet@v0.20.0
 - name: CircleCI-Public/circleci-cli@v0.1.31151
@@ -41,19 +41,19 @@ packages:
 - name: getsops/sops@v3.9.2
 - name: suzuki-shunsuke/tfcmt@v4.14.0
 - name: oven-sh/bun@bun-v1.1.38
-- name: k1LoW/runn@v0.123.0
-- name: stateful/runme@v3.10.0
-- name: suzuki-shunsuke/ghalint@v1.0.0
-- name: playwright-community/playwright-go@v0.4802.0
-- name: pulumi/pulumi@v3.142.0
-- name: tofuutils/tenv@v3.2.10
+- name: k1LoW/runn@v0.124.0
+- name: stateful/runme@v3.10.1
+- name: suzuki-shunsuke/ghalint@v1.1.0
+- name: playwright-community/playwright-go@v0.4901.0
+- name: pulumi/pulumi@v3.143.0
+- name: tofuutils/tenv@v3.2.11
 - name: sigstore/cosign@v2.4.1
 - name: terramate-io/terramate@v0.11.4
-- name: gruntwork-io/terragrunt@v0.69.9
+- name: gruntwork-io/terragrunt@v0.69.13
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.31.0
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.22.12
+- name: aws/aws-cli@2.22.17
 - name: aws/session-manager-plugin@1.2.694.0
 - name: Versent/saml2aws@v2.36.18
 - name: go-task/task@v3.40.1
