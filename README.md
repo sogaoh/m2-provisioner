@@ -58,6 +58,8 @@ since
 - Create directory
   ```zsh
   mkdir -p ~/.config/peco
+  mkdir -p ~/.config/bat
+  mkdir -p ~/.zsh.d
   mkdir -p ~/.ssh/.identity
   mkdir -p ~/.ssh/conf.d
   chmod 700 ~/.ssh
