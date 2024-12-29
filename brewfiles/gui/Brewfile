@@ -4,7 +4,8 @@ cask_args appdir: "/Applications"
 
 ## Basic
 ###################
-cask "iterm2"
+#cask "iterm2"
+cask "ghostty"
 cask "raycast"
 
 ## Browser
@@ -12,7 +13,7 @@ cask "raycast"
 cask "google-chrome"
 cask "firefox"
 cask "microsoft-edge"
-cask "arc"
+#cask "arc"
 
 ## Development
 ###################
@@ -25,13 +26,13 @@ cask "visual-studio-code"
 ## Communication
 ###################
 cask "slack"
-cask "discord"
+#cask "discord"
 cask "zoom"
-cask "chatwork"
+#cask "chatwork"
 
 ## Other
 ###################
-cask "obsidian"
+#cask "obsidian"
 cask "gimp"
 #cask "bitwarden" # Safari拡張機能を入れるためにAppStoreからのインストールにした
 #cask "adobe-acrobat-reader"     # Needs Rosseta2

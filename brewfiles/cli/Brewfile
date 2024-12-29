@@ -2,7 +2,7 @@ require './brewfiles/m1_utils.rb'
 
 brew "zsh-completion"
 brew "zsh-syntax-highlighting"
-brew "tmux"
+#brew "tmux"
 brew "rsync"
 brew "git"
 brew "wget"
