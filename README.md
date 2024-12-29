@@ -11,6 +11,8 @@ since
 ### OS
 - macOS Sonoma ~  (zsh)
   - Mac mini (M2)
+- macOS Sequoia ~  (zsh)
+  - MacBook Air (M3)
 
 ### Security
 - **Allow full access to terminal.app**
