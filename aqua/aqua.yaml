@@ -13,7 +13,7 @@ packages:
 - name: x-motemen/ghq@v1.7.1
 - name: peco/peco@v0.5.11
 - name: GoogleCloudPlatform/terraformer@0.8.24
-- name: noborus/ov@v0.37.0
+- name: noborus/ov@v0.38.0
 - name: noborus/trdsql@v1.1.0
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.35.0
@@ -58,3 +58,4 @@ packages:
 - name: Versent/saml2aws@v2.36.18
 - name: go-task/task@v3.41.0
 - name: duckdb/duckdb@v1.1.3
+- name: aws/copilot-cli@v1.34.0
