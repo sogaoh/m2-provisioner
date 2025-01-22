@@ -24,6 +24,8 @@ abbr -S --quiet tfo='terraform output'
 abbr -S --quiet tfd='terraform destroy'
 abbr -S --quiet tfv='terraform validate'
 abbr -S --quiet tfs='terraform state'
+abbr -S --quiet tfr='terraform refresh'
+abbr -S --quiet tf='terraform '
 
 ## terragrunt
 abbr -S --quiet tgf='terragrunt hclfmt'
