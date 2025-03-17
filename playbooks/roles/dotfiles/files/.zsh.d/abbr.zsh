@@ -25,6 +25,8 @@ abbr -S --quiet tfd='terraform destroy'
 abbr -S --quiet tfv='terraform validate'
 abbr -S --quiet tfs='terraform state'
 abbr -S --quiet tfr='terraform refresh'
+abbr -S --quiet tfws='terraform workspace select '
+abbr -S --quiet tfw='terraform workspace '
 abbr -S --quiet tf='terraform '
 
 ## terragrunt
