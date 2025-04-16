@@ -163,5 +163,9 @@ eval "$(direnv hook zsh)"
 eval "$(mise activate zsh)"
 
 
+# brew の aqua を優先しないように
+#export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH"
+
+
 # unalias:最後に
 #unalias mysql
