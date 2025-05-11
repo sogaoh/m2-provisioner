@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.359.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.364.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.8.0
 - name: peco/peco@v0.5.11
@@ -17,16 +17,16 @@ packages:
 - name: noborus/trdsql@v1.1.0
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.36.0
-- name: kellyjonbrazil/jc@v1.25.4
-- name: gohugoio/hugo@v0.147.1
-- name: mikefarah/yq@v4.45.2
+- name: kellyjonbrazil/jc@v1.25.5
+- name: gohugoio/hugo@v0.147.2
+- name: mikefarah/yq@v4.45.4
 - name: google/jsonnet@v0.20.0
-- name: CircleCI-Public/circleci-cli@v0.1.31632
+- name: CircleCI-Public/circleci-cli@v0.1.31687
 - name: tfutils/tfenv@v3.0.0
 - name: terraform-linters/tflint@v0.57.0
 - name: aquasecurity/tfsec@v1.28.14
-- name: aquasecurity/trivy@v0.62.0
-- name: kayac/ecspresso@v2.4.6
+- name: aquasecurity/trivy@v0.62.1
+- name: kayac/ecspresso@v2.5.0
 - name: fujiwara/lambroll@v1.3.0
 - name: fujiwara/ecsta@v0.6.2
 - name: fujiwara/tfstate-lookup@v1.6.0
@@ -40,20 +40,20 @@ packages:
 - name: volta-cli/volta@v2.0.2
 - name: getsops/sops@v3.10.2
 - name: suzuki-shunsuke/tfcmt@v4.14.7
-- name: oven-sh/bun@bun-v1.2.11
-- name: k1LoW/runn@v0.129.5
+- name: oven-sh/bun@bun-v1.2.13
+- name: k1LoW/runn@v0.130.2
 - name: stateful/runme@v3.13.2
 - name: suzuki-shunsuke/ghalint@v1.3.0
-- name: playwright-community/playwright-go@v0.5101.0
-- name: pulumi/pulumi@v3.167.0
-- name: tofuutils/tenv@v4.4.0
+- name: playwright-community/playwright-go@v0.5200.0
+- name: pulumi/pulumi@v3.169.0
+- name: tofuutils/tenv@v4.6.2
 - name: sigstore/cosign@v2.5.0
 - name: terramate-io/terramate@v0.13.0
-- name: gruntwork-io/terragrunt@v0.78.0
+- name: gruntwork-io/terragrunt@v0.78.2
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.32.0
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.27.7
+- name: aws/aws-cli@2.27.12
 - name: aws/session-manager-plugin@1.2.707.0
 - name: Versent/saml2aws@v2.36.19
 - name: go-task/task@v3.43.3
