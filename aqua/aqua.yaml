@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.371.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.371.1 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.8.0
 - name: peco/peco@v0.5.11
@@ -21,9 +21,9 @@ packages:
 - name: gohugoio/hugo@v0.147.5
 - name: mikefarah/yq@v4.45.4
 - name: google/jsonnet@v0.20.0
-- name: CircleCI-Public/circleci-cli@v0.1.31983
+- name: CircleCI-Public/circleci-cli@v0.1.32067
 - name: tfutils/tfenv@v3.0.0
-- name: terraform-linters/tflint@v0.57.0
+- name: terraform-linters/tflint@v0.58.0
 - name: aquasecurity/tfsec@v1.28.14
 - name: aquasecurity/trivy@v0.62.1
 - name: kayac/ecspresso@v2.5.0
@@ -53,7 +53,7 @@ packages:
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.32.0
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.27.21
+- name: aws/aws-cli@2.27.22
 - name: aws/session-manager-plugin@1.2.707.0
 - name: Versent/saml2aws@v2.36.19
 - name: go-task/task@v3.43.3
