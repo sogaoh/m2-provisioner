@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.377.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.379.2 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.8.0
 - name: peco/peco@v0.5.11
@@ -18,10 +18,10 @@ packages:
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.36.0
 - name: kellyjonbrazil/jc@v1.25.5
-- name: gohugoio/hugo@v0.147.8
+- name: gohugoio/hugo@v0.147.9
 - name: mikefarah/yq@v4.45.4
 - name: google/jsonnet@v0.20.0
-- name: CircleCI-Public/circleci-cli@v0.1.32367
+- name: CircleCI-Public/circleci-cli@v0.1.32580
 - name: tfutils/tfenv@v3.0.0
 - name: terraform-linters/tflint@v0.58.0
 - name: aquasecurity/tfsec@v1.28.14
@@ -31,31 +31,31 @@ packages:
 - name: fujiwara/ecsta@v0.7.0
 - name: fujiwara/tfstate-lookup@v1.6.0
 - name: fujiwara/cfft@v0.8.2
-- name: Songmu/ecschedule@v0.13.1
+- name: Songmu/ecschedule@v0.14.0
 - name: knqyf263/utern@v0.1.6
 - name: hashicorp/vault@v1.19.5
 - name: TomWright/dasel@v2.8.1
 - name: nektos/act@v0.2.78
-- name: cli/cli@v2.74.1 # gh
+- name: cli/cli@v2.74.2 # gh
 - name: volta-cli/volta@v2.0.2
 - name: getsops/sops@v3.10.2
 - name: suzuki-shunsuke/tfcmt@v4.14.7
-- name: oven-sh/bun@bun-v1.2.16
-- name: k1LoW/runn@v0.131.0
-- name: stateful/runme@v3.14.0
-- name: suzuki-shunsuke/ghalint@v1.4.1
+- name: oven-sh/bun@bun-v1.2.17
+- name: k1LoW/runn@v0.132.0
+- name: stateful/runme@v3.14.1
+- name: suzuki-shunsuke/ghalint@v1.5.1
 - name: playwright-community/playwright-go@v0.5200.0
-- name: pulumi/pulumi@v3.176.0
+- name: pulumi/pulumi@v3.178.0
 - name: tofuutils/tenv@v4.7.6
-- name: sigstore/cosign@v2.5.0
-- name: terramate-io/terramate@v0.13.2
-- name: gruntwork-io/terragrunt@v0.81.5
+- name: sigstore/cosign@v2.5.2
+- name: terramate-io/terramate@v0.13.3
+- name: gruntwork-io/terragrunt@v0.81.10
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.32.0
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.27.34
+- name: aws/aws-cli@2.27.41
 - name: aws/session-manager-plugin@1.2.707.0
 - name: Versent/saml2aws@v2.36.19
 - name: go-task/task@v3.44.0
-- name: duckdb/duckdb@v1.3.0
+- name: duckdb/duckdb@v1.3.1
 - name: aws/copilot-cli@v1.34.1
