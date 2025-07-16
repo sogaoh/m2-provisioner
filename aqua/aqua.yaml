@@ -36,24 +36,24 @@ packages:
 - name: hashicorp/vault@v1.20.0
 - name: TomWright/dasel@v2.8.1
 - name: nektos/act@v0.2.79
-- name: cli/cli@v2.75.0 # gh
+- name: cli/cli@v2.75.1 # gh
 - name: volta-cli/volta@v2.0.2
 - name: getsops/sops@v3.10.2
-- name: suzuki-shunsuke/tfcmt@v4.14.7
+- name: suzuki-shunsuke/tfcmt@v4.14.8
 - name: oven-sh/bun@bun-v1.2.18
-- name: k1LoW/runn@v0.132.1
-- name: stateful/runme@v3.14.3
-- name: suzuki-shunsuke/ghalint@v1.5.1
+- name: k1LoW/runn@v0.132.2
+- name: stateful/runme@v3.15.0
+- name: suzuki-shunsuke/ghalint@v1.5.2
 - name: playwright-community/playwright-go@v0.5200.0
-- name: pulumi/pulumi@v3.181.0
+- name: pulumi/pulumi@v3.182.0
 - name: tofuutils/tenv@v4.7.6
 - name: sigstore/cosign@v2.5.2
 - name: terramate-io/terramate@v0.14.0
-- name: gruntwork-io/terragrunt@v0.83.1
+- name: gruntwork-io/terragrunt@v0.83.2
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.32.0
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.27.50
+- name: aws/aws-cli@2.27.52
 - name: aws/session-manager-plugin@1.2.707.0
 - name: Versent/saml2aws@v2.36.19
 - name: go-task/task@v3.44.0
