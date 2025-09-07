@@ -45,6 +45,7 @@ packages:
 - name: k1LoW/runn@v0.136.1
 - name: stateful/runme@v3.15.1
 - name: suzuki-shunsuke/ghalint@v1.5.3
+- name: suzuki-shunsuke/pinact@v3.4.2
 - name: playwright-community/playwright-go@v0.5200.0
 - name: pulumi/pulumi@v3.193.0
 - name: tofuutils/tenv@v4.7.21
