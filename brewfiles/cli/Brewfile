@@ -47,3 +47,5 @@ brew "ynqa/tap/jnv"
 brew "deno"
 
 #cask "1password-cli"   # moved to aqua.yaml
+
+brew "gonzo"
