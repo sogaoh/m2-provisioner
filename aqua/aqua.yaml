@@ -8,12 +8,12 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.411.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.413.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.8.0
 - name: peco/peco@v0.5.11
 - name: GoogleCloudPlatform/terraformer@0.8.30
-- name: noborus/ov@v0.43.0
+- name: noborus/ov@v0.43.1
 - name: noborus/trdsql@v1.1.0
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.37.1
@@ -27,9 +27,9 @@ packages:
 - name: aquasecurity/tfsec@v1.28.14
 - name: aquasecurity/trivy@v0.66.0
 - name: kayac/ecspresso@v2.6.0
-- name: fujiwara/lambroll@v1.3.1
-- name: fujiwara/ecsta@v0.7.0
-- name: fujiwara/tfstate-lookup@v1.7.0
+- name: fujiwara/lambroll@v1.3.2
+- name: fujiwara/ecsta@v0.7.1
+- name: fujiwara/tfstate-lookup@v1.7.1
 - name: fujiwara/cfft@v0.8.2
 - name: fujiwara/maprobe@v0.10.3
 - name: Songmu/ecschedule@v0.15.3
@@ -40,26 +40,26 @@ packages:
 - name: cli/cli@v2.79.0 # gh
 - name: volta-cli/volta@v2.0.2
 - name: getsops/sops@v3.10.2
-- name: suzuki-shunsuke/tfcmt@v4.14.11
-- name: oven-sh/bun@bun-v1.2.21
-- name: k1LoW/runn@v0.136.1
-- name: stateful/runme@v3.15.1
+- name: suzuki-shunsuke/tfcmt@v4.14.12
 - name: suzuki-shunsuke/ghalint@v1.5.3
 - name: suzuki-shunsuke/pinact@v3.4.2
-- name: suzuki-shunsuke/ghtkn@v0.2.0
+- name: suzuki-shunsuke/ghtkn@v0.2.2
+- name: oven-sh/bun@bun-v1.2.22
+- name: k1LoW/runn@v0.136.1
+- name: stateful/runme@v3.15.1
 - name: playwright-community/playwright-go@v0.5200.0
-- name: pulumi/pulumi@v3.196.0
+- name: pulumi/pulumi@v3.197.0
 - name: tofuutils/tenv@v4.7.21
 - name: sigstore/cosign@v2.6.0
 - name: terramate-io/terramate@v0.14.5
-- name: gruntwork-io/terragrunt@v0.87.2
+- name: gruntwork-io/terragrunt@v0.87.4
 - name: tgenv/tgenv@v1.2.1
 - name: stern/stern@v1.33.0
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.30.1
+- name: aws/aws-cli@2.30.6
 - name: aws/session-manager-plugin@1.2.707.0
 - name: Versent/saml2aws@v2.36.19
-- name: go-task/task@v3.44.1
-- name: duckdb/duckdb@v1.3.2
+- name: go-task/task@v3.45.4
+- name: duckdb/duckdb@v1.4.0
 - name: aws/copilot-cli@v1.34.1
 - name: aws/aws-sam-cli@v1.144.0
