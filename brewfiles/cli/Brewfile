@@ -17,7 +17,7 @@ brew "diff-pdf"
 
 #brew "awscli"   # moved to aqua.yaml
 #brew "azure-cli"
-cask "google-cloud-sdk"
+cask "gcloud-cli"
 
 #brew "saml2aws"   # moved to aqua.yaml
 
@@ -49,3 +49,4 @@ brew "deno"
 #cask "1password-cli"   # moved to aqua.yaml
 
 brew "gonzo"
+brew "pwgen"
