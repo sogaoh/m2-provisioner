@@ -50,3 +50,4 @@ brew "deno"
 
 brew "gonzo"
 brew "pwgen"
+brew "ni"

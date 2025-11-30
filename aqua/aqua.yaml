@@ -8,7 +8,7 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.438.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.442.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.8.0
 - name: peco/peco@v0.5.11
@@ -19,20 +19,20 @@ packages:
 - name: direnv/direnv@v2.37.1
 - name: kellyjonbrazil/jc@v1.25.6
 - name: gohugoio/hugo@v0.152.2
-- name: mikefarah/yq@v4.49.1
+- name: mikefarah/yq@v4.49.2
 - name: google/jsonnet@v0.20.0
-- name: CircleCI-Public/circleci-cli@v0.1.33721
+- name: CircleCI-Public/circleci-cli@v0.1.33826
 - name: tfutils/tfenv@v3.0.0
 - name: terraform-linters/tflint@v0.60.0
 - name: aquasecurity/tfsec@v1.28.14
 - name: aquasecurity/trivy@v0.67.2
-- name: kayac/ecspresso@v2.6.4
+- name: kayac/ecspresso@v2.6.5
 - name: fujiwara/lambroll@v1.4.1
 - name: fujiwara/ecsta@v0.7.4
 - name: fujiwara/tfstate-lookup@v1.8.0
 - name: fujiwara/cfft@v0.8.2
 - name: fujiwara/maprobe@v0.10.4
-- name: Songmu/ecschedule@v0.17.0
+- name: Songmu/ecschedule@v0.17.1
 - name: knqyf263/utern@v0.1.6
 - name: hashicorp/vault@v1.21.1
 - name: TomWright/dasel@v2.8.1
@@ -42,21 +42,21 @@ packages:
 - name: getsops/sops@v3.11.0
 - name: suzuki-shunsuke/tfcmt@v4.14.12
 - name: suzuki-shunsuke/ghalint@v1.5.3
-- name: suzuki-shunsuke/pinact@v3.4.4
+- name: suzuki-shunsuke/pinact@v3.4.5
 - name: suzuki-shunsuke/ghtkn@v0.2.2
 - name: oven-sh/bun@bun-v1.3.3
-- name: k1LoW/runn@v1.0.0
-- name: stateful/runme@v3.16.1
+- name: k1LoW/runn@v1.1.0
+- name: stateful/runme@v3.16.4
 - name: playwright-community/playwright-go@v0.5200.1
-- name: pulumi/pulumi@v3.208.0
+- name: pulumi/pulumi@v3.209.0
 - name: tofuutils/tenv@v4.8.3
 - name: sigstore/cosign@v3.0.2
-- name: terramate-io/terramate@v0.14.7
-- name: gruntwork-io/terragrunt@v0.93.10
+- name: terramate-io/terramate@v0.15.0
+- name: gruntwork-io/terragrunt@v0.93.11
 - name: tgenv/tgenv@v1.3.0
 - name: stern/stern@v1.33.1
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.32.3
+- name: aws/aws-cli@2.32.6
 - name: aws/session-manager-plugin@1.2.764.0
 - name: Versent/saml2aws@v2.36.19
 - name: go-task/task@v3.45.5
