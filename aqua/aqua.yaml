@@ -8,12 +8,12 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.442.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.445.0 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: x-motemen/ghq@v1.8.0
 - name: peco/peco@v0.5.11
 - name: GoogleCloudPlatform/terraformer@0.8.30
-- name: noborus/ov@v0.45.1
+- name: noborus/ov@v0.50.2
 - name: noborus/trdsql@v1.1.0
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.37.1
@@ -25,41 +25,41 @@ packages:
 - name: tfutils/tfenv@v3.0.0
 - name: terraform-linters/tflint@v0.60.0
 - name: aquasecurity/tfsec@v1.28.14
-- name: aquasecurity/trivy@v0.67.2
+- name: aquasecurity/trivy@v0.68.1
 - name: kayac/ecspresso@v2.6.5
 - name: fujiwara/lambroll@v1.4.1
 - name: fujiwara/ecsta@v0.7.4
 - name: fujiwara/tfstate-lookup@v1.8.0
 - name: fujiwara/cfft@v0.8.2
 - name: fujiwara/maprobe@v0.10.4
-- name: Songmu/ecschedule@v0.17.1
+- name: Songmu/ecschedule@v0.17.2
 - name: knqyf263/utern@v0.1.6
 - name: hashicorp/vault@v1.21.1
 - name: TomWright/dasel@v2.8.1
-- name: nektos/act@v0.2.82
-- name: cli/cli@v2.83.1 # gh
+- name: nektos/act@v0.2.83
+- name: cli/cli@v2.83.2 # gh
 - name: volta-cli/volta@v2.0.2
 - name: getsops/sops@v3.11.0
-- name: suzuki-shunsuke/tfcmt@v4.14.12
-- name: suzuki-shunsuke/ghalint@v1.5.3
-- name: suzuki-shunsuke/pinact@v3.4.5
-- name: suzuki-shunsuke/ghtkn@v0.2.2
-- name: oven-sh/bun@bun-v1.3.3
-- name: k1LoW/runn@v1.1.0
+- name: suzuki-shunsuke/tfcmt@v4.14.13
+- name: suzuki-shunsuke/ghalint@v1.5.4
+- name: suzuki-shunsuke/pinact@v3.5.0
+- name: suzuki-shunsuke/ghtkn@v0.2.4
+- name: oven-sh/bun@bun-v1.3.4
+- name: k1LoW/runn@v1.1.1
 - name: stateful/runme@v3.16.4
 - name: playwright-community/playwright-go@v0.5200.1
-- name: pulumi/pulumi@v3.209.0
-- name: tofuutils/tenv@v4.8.3
-- name: sigstore/cosign@v3.0.2
-- name: terramate-io/terramate@v0.15.0
-- name: gruntwork-io/terragrunt@v0.93.11
+- name: pulumi/pulumi@v3.210.0
+- name: tofuutils/tenv@v4.9.0
+- name: sigstore/cosign@v3.0.3
+- name: terramate-io/terramate@v0.15.1
+- name: gruntwork-io/terragrunt@v0.94.0
 - name: tgenv/tgenv@v1.3.0
 - name: stern/stern@v1.33.1
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.32.6
+- name: aws/aws-cli@2.32.14
 - name: aws/session-manager-plugin@1.2.764.0
 - name: Versent/saml2aws@v2.36.19
 - name: go-task/task@v3.45.5
-- name: duckdb/duckdb@v1.4.2
+- name: duckdb/duckdb@v1.4.3
 - name: aws/copilot-cli@v1.34.1
-- name: aws/aws-sam-cli@v1.148.0
+- name: aws/aws-sam-cli@v1.150.1
