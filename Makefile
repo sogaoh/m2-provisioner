@@ -15,6 +15,7 @@ rust:
 	ansible-playbook playbooks/rust-packages.yml -i "localhost," --tags=rust-packages
 
 gui:
+	#brew bundle install --file=brewfiles/gui/Brewfile --verbose
 	brew bundle install --file=brewfiles/gui/Brewfile
 cli:
 	brew bundle install --file=brewfiles/cli/Brewfile

@@ -32,7 +32,7 @@ cask "chatwork"
 ## Other
 ###################
 cask "obsidian"
-cask "gimp"
+#cask "gimp"  # 遅すぎて我慢ならないので自動更新をやめる 2026.2.7
 #cask "bitwarden" # Safari拡張機能を入れるためにAppStoreからのインストールにした
 #cask "adobe-acrobat-reader"     # Needs Rosseta2
 #cask "rambox"
