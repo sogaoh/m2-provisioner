@@ -86,7 +86,7 @@ bindkey '^x^i' peco-docker-images
 
 # aqua
 export AQUA_GLOBAL_CONFIG=/Volumes/crucial-p5/m2-provisioner/aqua/aqua.yaml
-#export PATH="$(aqua root-dir)/bin:$PATH"
+export PATH="$(aqua root-dir)/bin:$PATH"
 
 
 # gcloud 
