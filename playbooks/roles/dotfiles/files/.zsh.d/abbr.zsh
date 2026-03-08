@@ -32,7 +32,7 @@ abbr -S --quiet tf='terraform '
 ## terragrunt
 abbr -S --quiet tgf='terragrunt hclfmt'
 abbr -S --quiet tgv='terragrunt hclvalidate'
-abbr -S --quiet tgi='terragrunt run-all init'
+abbr -S --quiet tgi='terragrunt init'
 abbr -S --quiet tgp='terragrunt plan'
 abbr -S --quiet tga='terragrunt apply'
 abbr -S --quiet tgo='terragrunt output'
