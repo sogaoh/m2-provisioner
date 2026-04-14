@@ -8,9 +8,9 @@
 #   - all
 registries:
 - type: standard
-  ref: v4.492.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v4.493.0 # renovate: depName=aquaproj/aqua-registry
 packages:
-- name: x-motemen/ghq@v1.9.4
+- name: x-motemen/ghq@v1.10.1
 - name: peco/peco@v0.6.0
 - name: GoogleCloudPlatform/terraformer@0.8.30
 - name: noborus/ov@v0.51.1
@@ -18,7 +18,7 @@ packages:
 - name: noborus/xlsxsql@v0.4.0
 - name: direnv/direnv@v2.37.1
 - name: kellyjonbrazil/jc@v1.25.6
-- name: gohugoio/hugo@v0.159.2
+- name: gohugoio/hugo@v0.160.1
 - name: mikefarah/yq@v4.52.5
 - name: google/jsonnet@v0.20.0
 - name: CircleCI-Public/circleci-cli@v0.1.34950
@@ -28,8 +28,8 @@ packages:
 - name: aquasecurity/trivy@v0.69.3
 - name: kayac/ecspresso@v2.8.0
 - name: fujiwara/lambroll@v1.4.2
-- name: fujiwara/ecsta@v0.8.0
-- name: fujiwara/tfstate-lookup@v1.10.0
+- name: fujiwara/ecsta@v0.8.1
+- name: fujiwara/tfstate-lookup@v1.11.0
 - name: fujiwara/cfft@v0.8.2
 - name: fujiwara/maprobe@v0.10.4
 - name: Songmu/ecschedule@v0.17.2
@@ -44,22 +44,22 @@ packages:
 - name: suzuki-shunsuke/ghalint@v1.5.5
 - name: suzuki-shunsuke/pinact@v3.9.0
 - name: suzuki-shunsuke/ghtkn@v0.2.4
-- name: oven-sh/bun@bun-v1.3.11
-- name: k1LoW/runn@v1.7.0
+- name: oven-sh/bun@bun-v1.3.12
+- name: k1LoW/runn@v1.9.0
 - name: stateful/runme@v3.16.10
 - name: playwright-community/playwright-go@v0.5700.1
-- name: pulumi/pulumi@v3.229.0
-- name: tofuutils/tenv@v4.9.3
-- name: sigstore/cosign@v3.0.5
+- name: pulumi/pulumi@v3.230.0
+- name: tofuutils/tenv@v4.10.1
+- name: sigstore/cosign@v3.0.6
 - name: terramate-io/terramate@v0.16.0
-- name: gruntwork-io/terragrunt@v1.0.0
+- name: gruntwork-io/terragrunt@v1.0.1
 - name: tgenv/tgenv@v1.3.0
 - name: stern/stern@v1.33.1
 - name: 1password/cli@v2.30.3
-- name: aws/aws-cli@2.34.24
+- name: aws/aws-cli@2.34.30
 - name: aws/session-manager-plugin@1.2.804.0
 - name: Versent/saml2aws@v2.36.19
-- name: go-task/task@v3.49.1
-- name: duckdb/duckdb@v1.5.1
+- name: go-task/task@v3.50.0
+- name: duckdb/duckdb@v1.5.2
 - name: aws/copilot-cli@v1.34.1
-- name: aws/aws-sam-cli@v1.157.1
+- name: aws/aws-sam-cli@v1.158.0

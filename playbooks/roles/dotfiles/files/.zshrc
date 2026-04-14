@@ -102,8 +102,8 @@ eval "$(anyenv init -)"
 # bun completions
 [ -s "/Users/sogaoh/.bun/_bun" ] && source "/Users/sogaoh/.bun/_bun"
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+#export BUN_INSTALL="$HOME/.bun"
+#export PATH="$BUN_INSTALL/bin:$PATH"
 
 
 # zsh-abbr
@@ -116,9 +116,9 @@ export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
 
 # volta
-export VOLTA_HOME="$HOME/.volta"
-export VOLTA_FEATURE_PNPM=1
-export PATH="$VOLTA_HOME/bin:$PATH"
+#export VOLTA_HOME="$HOME/.volta"
+#export VOLTA_FEATURE_PNPM=1
+#export PATH="$VOLTA_HOME/bin:$PATH"
 
 
 # nvm
