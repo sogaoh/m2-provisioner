@@ -162,6 +162,8 @@ eval "$(direnv hook zsh)"
 # mise
 eval "$(mise activate zsh)"
 
+# Terragrunt: use terraform instead of tofu
+export TG_TF_PATH=$(which terraform)
 
 # brew の aqua を優先しないように
 #export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH"
