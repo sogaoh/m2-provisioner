@@ -28,6 +28,7 @@ cask "slack"
 cask "discord"
 cask "zoom"
 cask "chatwork"
+cask "telegram"
 
 ## Other
 ###################
