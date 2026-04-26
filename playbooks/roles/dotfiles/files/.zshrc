@@ -115,10 +115,10 @@ export PATH="/opt/homebrew/opt/mysql-client@8.0/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
 
-# volta
-export VOLTA_HOME="$HOME/.volta"
-export VOLTA_FEATURE_PNPM=1
-export PATH="$VOLTA_HOME/bin:$PATH"
+## volta
+#export VOLTA_HOME="$HOME/.volta"
+#export VOLTA_FEATURE_PNPM=1
+#export PATH="$VOLTA_HOME/bin:$PATH"
 
 
 # nvm
