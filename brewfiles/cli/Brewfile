@@ -35,14 +35,20 @@ brew "mas"
 brew "mkcert"
 brew "nss" 
 
-tap "mackerelio/mackerel-agent"
-brew "mkr"                  # mackerelio/mackerel-agent/mkr
-tap "olets/tap"
-brew "zsh-abbr"             # olets/tap/zsh-abbr
-#tap "cloudflare/cloudflare"
-#cask "cloudflare/cloudflare/cf-terraforming"    # needs GRANT security & privacy
+tap "mackerelio/mackerel-agent", trusted: true
+brew "mackerelio/mackerel-agent/mkr", trusted: true
 
-brew "ynqa/tap/jnv"
+tap "olets/tap", trusted: true
+brew "olets/tap/zsh-abbr", trusted: true
+
+# tap "cloudflare/cloudflare", trusted: true
+# cask "cloudflare/cloudflare/cf-terraforming", trusted: true
+
+tap "ynqa/tap", trusted: true
+brew "ynqa/tap/jnv", trusted: true
+
+tap "kreuzwerker/taps", trusted: true
+tap "aquaproj/aqua", trusted: true
 
 brew "deno"
 
