@@ -47,9 +47,6 @@ brew "olets/tap/zsh-abbr", trusted: true
 tap "ynqa/tap", trusted: true
 brew "ynqa/tap/jnv", trusted: true
 
-tap "kreuzwerker/taps", trusted: true
-tap "aquaproj/aqua", trusted: true
-
 brew "deno"
 
 #cask "1password-cli"   # moved to aqua.yaml
@@ -57,3 +54,6 @@ brew "deno"
 brew "gonzo"
 brew "pwgen"
 brew "ni"
+
+tap "kreuzwerker/taps", trusted: true
+tap "aquaproj/aqua", trusted: true
