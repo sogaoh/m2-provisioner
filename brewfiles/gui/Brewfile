@@ -16,7 +16,7 @@ cask "arc"
 
 ## Development
 ###################
-cask "visual-studio-code"
+#cask "visual-studio-code"  # 更新時に止まるのでコメントアウト
 #cask "intellij-idea"
 #cask "jetbrains-toolbox"
 #cask "docker"        # 'Docker Desktop for Mac with Apple silicon' from https://docs.docker.com/desktop/install/mac-install/
