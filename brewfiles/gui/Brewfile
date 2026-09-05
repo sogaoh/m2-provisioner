@@ -11,7 +11,7 @@ cask "raycast"
 ###################
 cask "google-chrome"
 cask "firefox"
-cask "microsoft-edge"
+#cask "microsoft-edge"
 cask "arc"
 
 ## Development
