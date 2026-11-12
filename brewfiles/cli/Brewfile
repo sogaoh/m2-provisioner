@@ -21,7 +21,7 @@ cask "gcloud-cli"
 
 #brew "saml2aws"   # moved to aqua.yaml
 
-brew "mysql-client@8.0"
+brew "mysql-client@8.4"
 brew "postgresql@17"
 
 brew "anyenv"

@@ -111,7 +111,7 @@ source "/opt/homebrew/share/zsh-abbr/zsh-abbr.zsh"
 
 
 # mysql-client,psql PATH
-export PATH="/opt/homebrew/opt/mysql-client@8.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client@8.4/bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
 
